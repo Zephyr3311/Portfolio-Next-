@@ -7,7 +7,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Json Tree",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel #"],
     image: {
       LIGHT: "/images/projects/jsontreeLight.webp",
       DARK: "/images/projects/jsontreeDark.webp",
@@ -20,11 +20,11 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: [
       "Reactjs",
       "Tailwindcss",
-      "Scss",
+      "Solidity",
       "Vite",
       "React-router-dom",
       "Redux",
-      "Vercel",
+      "Vercel #",
     ],
     image: {
       LIGHT: "/images/projects/manyGamesLight.webp",
@@ -35,7 +35,15 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 2,
     title: "Kanban",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: [
+      "Reactjs",
+      "Vite",
+      "Tailwindcss",
+      "Vercel",
+      "Zustand",
+      "React DND",
+      "Rust #",
+    ],
     image: {
       LIGHT: "/images/projects/kanbanLight.webp",
       DARK: "/images/projects/kanbanDark.webp",
@@ -53,7 +61,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/Zephyr6410/jsontree",
+    sourceCodeHref: "https://github.com/Zephyr3311/jsontree",
     liveWebsiteHref: "https://jsontree.vercel.app",
   },
   {
@@ -66,7 +74,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/Zephyr6410/kanban",
+    sourceCodeHref: "https://github.com/Zephyr3311/kanban",
     liveWebsiteHref: "https://Warren-board.vercel.app",
   },
   {
@@ -81,7 +89,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/Zephyr6410/ManyGames",
+    sourceCodeHref: "https://github.com/Zephyr3311/ManyGames",
     liveWebsiteHref: "https://manygames.vercel.app",
   },
   {
@@ -93,7 +101,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/Zephyr6410/Sakamoto-v2",
+    sourceCodeHref: "https://github.com/Zephyr3311/Sakamoto-v2",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
@@ -106,7 +114,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/Zephyr6410/CovidTracker",
+    sourceCodeHref: "https://github.com/Zephyr3311/CovidTracker",
   },
   {
     name: "Stock predictor",

@@ -33,9 +33,9 @@ There are some premade themes that I have made for this portfolio inside `theme-
 
 #### Eg. Some Premade themes
 
-![Violet-theme](https://github.com/Zephyr6410/Portfoilo85615075/25db6c35-f9e2-4c19-9060-cac2f0b544de)
-![rose-theme](https://github.com/Zephyr6410/Portfoilo85615075/f5dd1b90-3297-440d-a83c-d79c1cef7bd0)
-![yellow-theme](https://github.com/Zephyr6410/Portfoilo85615075/e5576e96-0d9d-4f37-a7ad-e14ffa5b1d21)
+![Violet-theme](https://github.com/Zephyr3311/Portfoilo85615075/25db6c35-f9e2-4c19-9060-cac2f0b544de)
+![rose-theme](https://github.com/Zephyr3311/Portfoilo85615075/f5dd1b90-3297-440d-a83c-d79c1cef7bd0)
+![yellow-theme](https://github.com/Zephyr3311/Portfoilo85615075/e5576e96-0d9d-4f37-a7ad-e14ffa5b1d21)
 
 ## ✉️ Setup Nodemailer
 

@@ -2,36 +2,26 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
-    organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
-    },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
-    description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
-  },
-  {
     title: "Higher Secondary School",
     organisation: {
-      name: "Mithibai College",
+      name: "Computer Science Scholar",
       href: "https://www.mithibai.ac.in/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2018-2022",
+    location:
+      "Motooka, Nishi-ku, Fukuoka City, Fukuoka Prefecture 819-0395, Japan",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Specializes in databases and web systems. Graduation thesis: Database optimization techniques for high-traffic web applications.",
   },
   {
-    title: "Secondary School Education",
+    title: "Bachelor's degree in software engineering,",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Kanagawa Institute of Technology",
+      href: "https://eng.rizvi.edu.in/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "2016-2018",
+    location: "Atsugi, Kanagawa, Japan",
     description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Core courses taken include Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Networks, and Database Management",
   },
 ];

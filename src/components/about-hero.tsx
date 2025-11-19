@@ -5,13 +5,13 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
-import DuotoneImage from "./duotone-image";
+// import heroProfileImg from "@/public/images/heroProfile.png";
+// import DuotoneImage from "./duotone-image";
 
 export default function AboutHero() {
   return (
     <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
-      <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
+      {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <DuotoneImage
@@ -26,8 +26,8 @@ export default function AboutHero() {
             />
           </FadeUp>
         </AnimatePresence>
-      </div>
-      <div className="sm:1/2 mt-10 w-full lg:w-1/2">
+      </div> */}
+      <div className="mt-10 w-full">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
