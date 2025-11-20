@@ -96,8 +96,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/portfolio1.webp",
+      "/images/projects/portfolio2.webp",
+      "/images/projects/portfolio3.webp",
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",

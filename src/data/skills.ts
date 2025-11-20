@@ -19,6 +19,9 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
+import Rust from "@/public/icons/rust.svg";
+import Go from "@/public/icons/go.svg";
+import Solidity from "@/public/icons/solidity.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
@@ -27,9 +30,11 @@ import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
+import Vue from "@/public/icons/vue.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
+import Nuxtjs from "@/public/icons/Nuxt.js.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -68,6 +73,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "Solidity",
+        icon: Solidity,
+      },
+      {
+        name: "Rust",
+        icon: Rust,
+      },
+      {
+        name: "Go",
+        icon: Go,
       },
     ],
   },
@@ -114,6 +131,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Vite PWA",
         icon: VitePwaIcon,
       },
+      {
+        name: "Vuejs",
+        icon: Vue,
+      },
     ],
   },
   {
@@ -134,6 +155,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Flask",
         icon: SiFlask,
+      },
+      {
+        name: "Nuxt.js",
+        icon: Nuxtjs,
       },
     ],
   },

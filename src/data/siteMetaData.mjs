@@ -12,7 +12,7 @@ export const siteMetadata = {
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
-  email: "tatewarren79@gmail.com",
+  email: "rlabs54656@gmail.com",
   github: "https://github.com/Zephyr3311",
   twitter: "https://twitter.com",
   linkedin: "https://www.linkedin.com/in/Skmt",
