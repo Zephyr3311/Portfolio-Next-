@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -61,7 +60,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/Zephyr3311/jsontree",
+    sourceCodeHref: "https://github.com/Zephyr3311/JsonTree-Visualizer",
     liveWebsiteHref: "https://jsontree.vercel.app",
   },
   {
@@ -102,8 +101,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/Zephyr3311/Sakamoto-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+    sourceCodeHref: "https://github.com/Zephyr3311/Portfolio-Next-",
+    liveWebsiteHref: "https://portfolio-next-eight-chi.vercel.app/",
   },
   {
     name: "Covid Tracker",
@@ -115,7 +114,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/Zephyr3311/CovidTracker",
+    sourceCodeHref: "https://github.com/Zephyr3311/Covid-19-Tracker",
+    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker/",
   },
   {
     name: "Stock predictor",
@@ -128,6 +128,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+    sourceCodeHref: "https://github.com/Zephyr3311/Stock-Predictor",
   },
 ];
