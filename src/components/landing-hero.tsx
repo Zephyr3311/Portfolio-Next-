@@ -42,23 +42,38 @@ export default function LandingHero() {
                 Sakamoto Takashi
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Full Stack Developer
+                Full Stack and Blockchain Engineer
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
-              <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I am a full stack developer specializing in building
-                high-performance, user-focused web applications. Skilled in{" "}
+              <div className="max-w-1xl mt-8 text-base text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
+                Full Stack Engineer with over 7 years of expertise in crafting,
+                developing, and launching web and decentralized applications.
+                Skilled in frontend, backend, blockchain, and AI-driven
+                technologies, with a focus on creating scalable,
+                high-performance systems for both startups and enterprise
+                clients. Proficient in Web3integrations, smart contract
+                development, and crypto payment systems using Solidity,
+                ethers.js, and Web3.js. Experienced in building and deploying
+                AI-powered chatbots, automation tools, and intelligent APIs that
+                enhance user engagement and operational efficiency. Enjoy
+                working in fast-paced,remote environments, collaborating with
+                cross-functional teams, and delivering exceptional user
+                experiences through clean code and modern architecture{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
                 <span className="font-semibold text-accent">NextJS</span>,{" "}
                 <span className="font-semibold text-accent">VueJS</span>,{" "}
                 <span className="font-semibold text-accent">AnglarJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
+                <span className="font-semibold text-accent">SolidJS</span>,{" "}
+                <span className="font-semibold text-accent">NestJS</span>,{" "}
+                <span className="font-semibold text-accent">Django</span>,{" "}
+                <span className="font-semibold text-accent">Rust</span>,{" "}
+                <span className="font-semibold text-accent">EthersJs</span>, and
                 an expert in{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">TypeScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+                <span className="font-semibold text-accent">Solidity</span> and{" "}
+                <span className="font-semibold text-accent">Web3.js</span>
               </div>
             </FadeUp>
           </AnimatePresence>
