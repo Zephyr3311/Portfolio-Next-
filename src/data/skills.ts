@@ -1,10 +1,4 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
+import { SiExpress, SiSocketdotio, SiNextdotjs, SiFlask } from "react-icons/si";
 import {
   FramerMotionIcon,
   ReactRouterDomIcon,
@@ -12,31 +6,39 @@ import {
 } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
-// Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
+// Programming Languages
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
+import Solidity from "@/public/icons/solidity.svg";
 import Rust from "@/public/icons/rust.svg";
 import Go from "@/public/icons/go.svg";
-import Solidity from "@/public/icons/solidity.svg";
+import CSSvg from "@/public/icons/CS.svg";
 
-// Libraries
+// Frontend Frameworks
 import ReactjsSvg from "@/public/icons/reactjs.svg";
+import Nuxtjs from "@/public/icons/Nuxt.js.svg";
+import AngularSvg from "@/public/icons/Angular-Dark.svg";
+import SassSvg from "@/public/icons/sass.svg";
 import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
 import Vue from "@/public/icons/vue.svg";
+import FlutterSvg from "@/public/icons/Flutter-Dark.svg";
+import UnitySvg from "@/public/icons/Unity-Dark.svg";
+import WEB3jsSvg from "@/public/icons/web3js.svg";
 
-// Backend
+// Backend Frameworks
 import NodejsSvg from "@/public/icons/nodejs.svg";
-import Nuxtjs from "@/public/icons/Nuxt.js.svg";
+import NestjsSvg from "@/public/icons/NestJS-Dark.svg";
+import DjangoSvg from "@/public/icons/Django.svg";
+import LaravelSvg from "@/public/icons/Laravel-Dark.svg";
+import FastapiSvg from "@/public/icons/fastapi.svg";
+import rubySvg from "@/public/icons/ruby.svg";
 
-// Database and ORMS
+// Database
+import MySQLSvg from "@/public/icons/MySQL-Dark.svg";
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
 
@@ -44,24 +46,16 @@ import PostgressSvg from "@/public/icons/postgresql.svg";
 import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
-import PostmanSvg from "@/public/icons/postman.svg";
+import PrismaSvg from "@/public/icons/prisma.svg";
+import ViteSvg from "@/public/icons/vite.svg";
+import WordpressSvg from "@/public/icons/Wordpress.svg";
+import GraphSvg from "@/public/icons/graphql.svg";
+import VercelSvg from "@/public/icons/vercel.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Languages",
+    sectionName: "Programming Languages",
     skills: [
-      {
-        name: "HTML",
-        icon: HtmlSvg,
-      },
-      {
-        name: "CSS",
-        icon: CsssSvg,
-      },
-      {
-        name: "SASS",
-        icon: SassSvg,
-      },
       {
         name: "Javascript",
         icon: JavascriptSvg,
@@ -86,10 +80,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Go",
         icon: Go,
       },
+      {
+        name: "C#",
+        icon: CSSvg,
+      },
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Fronend Frameworks",
     skills: [
       {
         name: "Reactjs",
@@ -100,12 +98,28 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       {
+        name: "Vuejs",
+        icon: Vue,
+      },
+      {
+        name: "Nuxt.js",
+        icon: Nuxtjs,
+      },
+      {
+        name: "Angular",
+        icon: AngularSvg,
+      },
+      {
         name: "Solidjs",
         icon: SolidjsSvg,
       },
       {
         name: "React Router Dom",
         icon: ReactRouterDomIcon,
+      },
+      {
+        name: "SASS",
+        icon: SassSvg,
       },
       {
         name: "Redux",
@@ -124,21 +138,17 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: FramerMotionIcon,
       },
       {
-        name: "Vite",
-        icon: ViteSvg,
+        name: "Flutter",
+        icon: FlutterSvg,
       },
       {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
-      {
-        name: "Vuejs",
-        icon: Vue,
+        name: "Unity",
+        icon: UnitySvg,
       },
     ],
   },
   {
-    sectionName: "Backend",
+    sectionName: "Backend Framework",
     skills: [
       {
         name: "Nodejs",
@@ -149,6 +159,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiExpress,
       },
       {
+        name: "Nestjs",
+        icon: NestjsSvg,
+      },
+      {
+        name: "Django",
+        icon: DjangoSvg,
+      },
+      {
+        name: "Laravel",
+        icon: LaravelSvg,
+      },
+      {
         name: "Socket.io",
         icon: SiSocketdotio,
       },
@@ -157,8 +179,16 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiFlask,
       },
       {
-        name: "Nuxt.js",
-        icon: Nuxtjs,
+        name: "Fastapi",
+        icon: FastapiSvg,
+      },
+      {
+        name: "Ruby",
+        icon: rubySvg,
+      },
+      {
+        name: "Prisma (ORM)",
+        icon: PrismaSvg,
       },
     ],
   },
@@ -166,16 +196,16 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Databases and ORMs",
     skills: [
       {
-        name: "MongoDB",
-        icon: MongoDBSvg,
+        name: "MySQL",
+        icon: MySQLSvg,
       },
       {
         name: "Postgress",
         icon: PostgressSvg,
       },
       {
-        name: "Prisma",
-        icon: SiPrisma,
+        name: "MongoDB",
+        icon: MongoDBSvg,
       },
     ],
   },
@@ -195,8 +225,28 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: AwsSvg,
       },
       {
-        name: "Postman",
-        icon: PostmanSvg,
+        name: "Web3js",
+        icon: WEB3jsSvg,
+      },
+      {
+        name: "Vite",
+        icon: ViteSvg,
+      },
+      {
+        name: "Vite PWA",
+        icon: VitePwaIcon,
+      },
+      {
+        name: "Wordpress",
+        icon: WordpressSvg,
+      },
+      {
+        name: "Graph",
+        icon: GraphSvg,
+      },
+      {
+        name: "Vercel",
+        icon: VercelSvg,
       },
     ],
   },
