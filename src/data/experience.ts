@@ -34,6 +34,6 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     description: `- Led the dev team with CTO to build a distributed ticket booking system and admin dashboard using Next.js for frontend and NestJS for backend with Typescript. 
 - Built secure user and admin portals with JWT-based authentication, impersonation features, and role-based access control.
 - Integrated Redis for caching frequently accessed data (event listings, seat availability), reducing query latency by 45% and significantly enhancing real-time performance.
-- Developed a dynamic, mobile-friendly frontend with Next.js, including animated dashboards, multi-step checkout, and QR code- based ticket scanning using rotating TOTP tokens.`,
+- Developed a dynamic, mobile-friendly frontend with Next.js, including animated dashboards, multi-step checkout, and QR code-based ticket scanning using rotating TOTP tokens.`,
   },
 ];
