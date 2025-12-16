@@ -3,7 +3,7 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
     title: "Senior Backend Deveoper",
-    date: "04/2022 – 12/2022",
+    date: "04/2022 - 12/2022",
     location: "Santa Monica",
     description: `- Maintained an application's back-end nodes in Python and C++ to book train tickets in multiple providers.
 - Implemented new back-end nodes in Python for storing data in MongoDB and made them accessible through a REST API.
@@ -11,7 +11,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   },
   {
     title: "Senior Frontend Deveoper",
-    date: "12/2022 – 09/2023",
+    date: "12/2022 - 09/2023",
     location: "Santa Monica",
     description: `- Improved time loading speed, refactoring some queries only to fetch needed data, minimized rendering overhead, and reduced initial page load times using the code split technique.
 - Consistently worked closely with the CTO to craft the optimal user experience and gain a deeper understanding of the product's requirements.
@@ -20,7 +20,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   },
   {
     title: "Web3 and blockchain Developer",
-    date: "09/2023 – 11/2024",
+    date: "09/2023 - 11/2024",
     location: "Remote",
     description: `- Developed a crypto payment streaming system to enable real-time token transfers for user subscriptions and purchases, enhancing transaction efficiency and platform scalability.
 - Created a dynamic deposit status tracker using React and ethers.js, allowing users to monitor incoming cryptocurrencies (ETH, TRON, BTC, USDC, USDT, etc.) with real- time updates via WebSockets and event listeners.
@@ -29,7 +29,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   },
   {
     title: "Senior Software Engineer",
-    date: "11/2024 – Present",
+    date: "11/2024 - Present",
     location: "Remote",
     description: `- Led the dev team with CTO to build a distributed ticket booking system and admin dashboard using Next.js for frontend and NestJS for backend with Typescript. 
 - Built secure user and admin portals with JWT-based authentication, impersonation features, and role-based access control.
