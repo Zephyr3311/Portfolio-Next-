@@ -19,7 +19,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
 - Contributed to elevated code quality by serving as a code reviewer, ensuring robust and efficient solutions for the company.`,
   },
   {
-    title: "Web3 Developer",
+    title: "Web3 and blockchain Developer",
     date: "09/2023 – 11/2024",
     location: "Remote",
     description: `- Developed a crypto payment streaming system to enable real-time token transfers for user subscriptions and purchases, enhancing transaction efficiency and platform scalability.
